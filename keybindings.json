@@ -55,6 +55,11 @@
     "key": "d",
     "when": "filesExplorerFocus && !inputFocus"
   },
+  {
+    "key": "ctrl+l",
+    "command": "extension.vim_escape",
+    "when": "editorTextFocus && vim.active && !inDebugRepl"
+  },
 
   // EXTRA
   {
